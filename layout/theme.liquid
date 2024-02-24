@@ -295,6 +295,12 @@
       {{ 'accessibility.skip_to_text' | t }}
     </a>
 
+    {% if template.name == 'index' %}
+      <script type='text/javascript'>
+        window.location.href = '/products/sandalo-bar';
+      </script>
+    {% endif %}
+
     {%- if settings.cart_type == 'drawer' -%}
       {%- render 'cart-drawer' -%}
     {%- endif -%}
