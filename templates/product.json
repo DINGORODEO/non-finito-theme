@@ -3,13 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "text_UL3JP7": {
-          "type": "text",
-          "settings": {
-            "text": "NON FINITO",
-            "text_style": "body"
-          }
-        },
         "text_EzgMbA": {
           "type": "text",
           "settings": {
@@ -74,7 +67,6 @@
         }
       },
       "block_order": [
-        "text_UL3JP7",
         "text_EzgMbA",
         "description",
         "price",
