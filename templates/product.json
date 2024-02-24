@@ -3,13 +3,27 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "price": {
-          "type": "price",
+        "text_UL3JP7": {
+          "type": "text",
+          "settings": {
+            "text": "NON FINITO",
+            "text_style": "body"
+          }
+        },
+        "text_EzgMbA": {
+          "type": "text",
+          "settings": {
+            "text": "SANDALO BAR",
+            "text_style": "body"
+          }
+        },
+        "description": {
+          "type": "description",
           "settings": {
           }
         },
-        "title": {
-          "type": "title",
+        "price": {
+          "type": "price",
           "settings": {
           }
         },
@@ -37,12 +51,7 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
+            "show_gift_card_recipient": false
           }
         },
         "collapsible-row-0": {
@@ -65,13 +74,14 @@
         }
       },
       "block_order": [
+        "text_UL3JP7",
+        "text_EzgMbA",
+        "description",
         "price",
-        "title",
         "caption",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
         "collapsible-row-0",
         "collapsible-row-1"
       ],
@@ -82,7 +92,7 @@
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "gallery_layout": "stacked",
-        "media_position": "left",
+        "media_position": "right",
         "image_zoom": "hover",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
