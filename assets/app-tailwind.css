@@ -8,4 +8,8 @@ header.header {
   .header__search {
     @apply twcss-hidden !important;
   }
+  .h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
 }
