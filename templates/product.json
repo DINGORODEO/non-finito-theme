@@ -50,15 +50,6 @@
             "text_style": "subtitle"
           }
         },
-        "variant_picker": {
-          "type": "variant_picker",
-          "disabled": true,
-          "settings": {
-            "picker_type": "button",
-            "swatch_picker_type": "swatch",
-            "swatch_shape": "circle"
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -94,7 +85,6 @@
         "description",
         "price",
         "caption",
-        "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "collapsible-row-0",
