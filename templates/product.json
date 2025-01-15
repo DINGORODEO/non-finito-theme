@@ -74,7 +74,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Ingredients",
-            "icon": "plant",
+            "icon": "none",
             "content": "",
             "page": ""
           }
@@ -83,7 +83,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Shipping & Returns",
-            "icon": "truck",
+            "icon": "none",
             "content": "",
             "page": ""
           }
