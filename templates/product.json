@@ -25,6 +25,36 @@
         "show_text_below": true
       }
     },
+    "rich_text_wyAkR3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DGx66D": {
+          "type": "heading",
+          "settings": {
+            "heading": "Relief Donation",
+            "heading_size": "h1"
+          }
+        },
+        "text_DgcTxm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DGx66D",
+        "text_DgcTxm"
+      ],
+      "settings": {
+        "desktop_content_position": "right",
+        "content_alignment": "right",
+        "color_scheme": "scheme-8ebf6555-efc9-4d60-a29d-8d65ae9bab20",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -132,6 +162,7 @@
   },
   "order": [
     "image_banner_JR6The",
+    "rich_text_wyAkR3",
     "main",
     "related-products"
   ]
