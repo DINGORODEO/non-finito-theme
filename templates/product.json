@@ -9,6 +9,22 @@
  */
 {
   "sections": {
+    "image_banner_JR6The": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2025-01-14_at_5.14.16_PM.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -85,19 +101,20 @@
         "collapsible-row-1"
       ],
       "custom_css": [
-        ".product__media-wrapper {display: none;}"
+        ".product__media-wrapper {display: none;}",
+        ".product__info-wrapper {margin-left: 0 !important; padding-left: 0 !important;}"
       ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-8ebf6555-efc9-4d60-a29d-8d65ae9bab20",
         "media_size": "small",
-        "constrain_to_viewport": true,
+        "constrain_to_viewport": false,
         "media_fit": "contain",
         "gallery_layout": "stacked",
         "media_position": "left",
         "image_zoom": "hover",
         "mobile_thumbnails": "hide",
-        "hide_variants": true,
+        "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 0,
         "padding_bottom": 12
@@ -124,6 +141,7 @@
     }
   },
   "order": [
+    "image_banner_JR6The",
     "main",
     "related-products"
   ]
