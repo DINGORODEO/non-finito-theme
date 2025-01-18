@@ -67,19 +67,16 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "text_EzgMbA": {
-          "type": "text",
-          "settings": {
-            "text": "SANDALO BAR",
-            "text_style": "body"
-          }
-        },
-        "description": {
-          "type": "description",
+        "title_PdmF7a": {
+          "type": "title",
           "settings": {}
         },
         "price": {
           "type": "price",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
           "settings": {}
         },
         "caption": {
@@ -102,6 +99,7 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Ingredients",
             "icon": "none",
@@ -111,6 +109,7 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "none",
@@ -120,9 +119,9 @@
         }
       },
       "block_order": [
-        "text_EzgMbA",
-        "description",
+        "title_PdmF7a",
         "price",
+        "description",
         "caption",
         "quantity_selector",
         "buy_buttons",
@@ -131,7 +130,8 @@
       ],
       "custom_css": [
         ".product__media-wrapper {display: none;}",
-        ".product__info-wrapper {margin-left: 0 !important; padding-left: 0 !important;}"
+        ".product__info-wrapper {margin-left: 0 !important; padding-left: 0 !important;}",
+        ".product__title {/* text-transform: uppercase; */}"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -168,6 +168,47 @@
         "padding_bottom": 28
       }
     },
+    "collapsible_content_QVRexc": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_hPDnAk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ingredients",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_aUtexf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_hPDnAk",
+        "collapsible_row_aUtexf"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-8ebf6555-efc9-4d60-a29d-8d65ae9bab20",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner_wMA3U7": {
       "type": "image-banner",
       "custom_css": [],
@@ -192,6 +233,7 @@
     "custom_liquid_Ajrwwt",
     "main",
     "related-products",
+    "collapsible_content_QVRexc",
     "image_banner_wMA3U7"
   ]
 }
