@@ -38,7 +38,7 @@
         "text_DgcTxm": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>We started Non Finito with a few things in mind. That we wanted to make an exceptionally great performing soap bar, formulated free of palm oil, free of any harmful or toxic ingredients, a soap bar made and packaged sustainably, and one that smelled incredibly and would be a pleasure to use. <br/><br/>In light of the recent Los Angeles fires we hit pause on finalizing the “brand” and decided to simply launch this soap as a way to help others. When you buy a bar of Non Finito Soap all proceeds (aside from our cost to make and ship it) will go to Los Angeles fire  relief  effort organizations and  go fund me accounts of people and businesses who lost it all. <br/><br/><br/>Please enjoy the soap we would love to know      what you think of it. <br/><br/>There’s a lot of clean up to do. <br/>There’s a lot of change to come. <br/>The work is never finished. <br/><br/>With love,<br/>\t⁃\tNon Finito </p>"
           }
         }
       },
@@ -47,8 +47,8 @@
         "text_DgcTxm"
       ],
       "settings": {
-        "desktop_content_position": "right",
-        "content_alignment": "right",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
         "color_scheme": "scheme-8ebf6555-efc9-4d60-a29d-8d65ae9bab20",
         "full_width": true,
         "padding_top": 40,
