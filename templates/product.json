@@ -120,7 +120,7 @@
         "collapsible-row-1"
       ],
       "custom_css": [
-        ".product__media-wrapper {display: none;}",
+        ".product__media-wrapper {/* display: none; */}",
         ".product__info-wrapper {margin-left: 0 !important; padding-left: 0 !important;}",
         ".product__title {/* text-transform: uppercase; */}"
       ],
@@ -131,7 +131,7 @@
         "constrain_to_viewport": false,
         "media_fit": "contain",
         "gallery_layout": "stacked",
-        "media_position": "left",
+        "media_position": "right",
         "image_zoom": "hover",
         "mobile_thumbnails": "hide",
         "hide_variants": false,
